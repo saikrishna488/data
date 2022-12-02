@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Data utilizer
+        </title>
+        <style>
+            body{
+                background-color: #252e39;
+                color: white;
+            }
+            #con{
+                margin-top: 50px;
+                display: grid;
+                width: 800px;
+                grid-template-columns: auto auto auto;
+            }
+            .item{
+                margin: 10px 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .img{
+                height: 80px;
+                width: 80px;
+                filter: invert(100);
+                cursor: pointer;
+            }
+            .lab{
+                cursor: pointer;
+            }
+            .bottom{
+                margin: 100px 50px;
+            }
+            h4{
+                cursor: pointer;
+                color: lightskyblue;
+                width: 100px;
+            }
+            h4:hover{
+                color: white;
+            }
+            #logo{
+                position: absolute;
+                height: 300px;
+                width: 300px;
+                top: 50px;
+                right: 50px;
+            }
+            h2{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Data utilizer</h2>
+        <div id="con">
+            <div class="item">
+                <img src="mb.png" style="filter: invert(100);"alt="" class="img">
+                <label for="" class="lab">Data remaining</label>
+            </div>
+            <div class="item">
+                <img src="qr.png" alt="" class="img">
+                <label for="" class="lab">QR code</label>
+            </div>
+            <div class="item">
+                <img src="dp.png" alt="" class="img">
+                <label for="" class="lab">Profile</label>
+            </div>
+            <div class="item">
+                <img src="la.png"alt="" class="img">
+                <label for="" class="lab">Purchase Data</label>
+            </div>
+            <div class="item">
+                <img src="ra.png"alt="" class="img">
+                <label for="" class="lab">Sell Data</label>
+            </div>
+            <div class="item">
+                <img src="save.png"alt="" class="img">
+                <label for="" class="lab">Save Data</label>
+            </div>
+        </div>
+        <div class="bottom">
+            <h4>More Details</h4>
+            <h4>Help</h4>
+            <h4>Settings</h4>
+        </div>
+        <img src="bulb.png" id="logo" alt="">
+    </body>
+</html>
