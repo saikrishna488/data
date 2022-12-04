@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <title>payment</title>
+    <style>
+        .con{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+        .pay{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .img{
+            height: 70px;
+            width: 70px;
+            margin: 5px 10px;
+        }
+        .img:hover{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <h4 style="font-size: larger;">Payment section</h4>
+        <br><br><br><br>
+        <label for="" style="font-size: larger;">Choose Payment method</label>
+        <div class="pay">
+            <img src="phonepe.png" alt="" class="img">
+            <img src="paytm.png" alt="" class="img">
+            <img src="gpay.png" alt="" class="img">
+        </div>
+        <br><br>
+        <label for="" style="font-size: larger;">Amount</label>
+        <input style="font-size: larger;" type="number">
+        <br><br>
+        <label for="" style="font-size: larger;">Enter You Bank Pin</label>
+        <input style="font-size: larger;" type="number">
+        <br><br>
+        <button style="font-size: larger;"  onclick="location.href='succ.html';">Submit</button>
+    </div>
+</body>
+</html>
